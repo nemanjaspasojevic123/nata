@@ -1,0 +1,18 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    width: 100vw;
+}
+
+.home_background {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.home-title {
+    position: absolute;
+    z-index: 2;
+    color: $primary-color-3;
+    transform: translate(50%, 50%);
+}
